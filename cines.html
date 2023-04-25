@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+      <path
+        d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+    </symbol>
+  </svg>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <style>
+    @import url(Index.css);
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img src="Recursos/Mobiex.png" alt="Hola" class="rounded float-start" width="100px" height="100px">
+        <a class="navbar-brand" href="#">Mobex</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="cartelera.html">Cartelera</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cines.html">Cines</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="btn btn-outline-light" type="submit">Iniciar Sesión</button>
+                <button class="btn btn-outline-light" type="submit">Registrarse</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div style="background-color:  rgb(227, 224, 224);">
+    <div class="container pb-3 pt-3 mb-5">
+        <div class="row">
+            <div class="col"></div> <!-- Columna vacía a la izquierda -->
+            <div class="col-md-6"> <!-- Columna de información -->
+                <h1 class="txtInfoCartelera">Todos nuestros cines</h1>
+            </div>
+            <div class="col-md-3">
+            </div>
+            <div class="col"></div> <!-- Columna vacía a la derecha -->
+        </div>
+    </div>
+</div>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col"></div> <!-- Columna vacía a la izquierda -->
+        <div class="col-md-3">
+            <p class="fs-5 txtInfoCartelera">Filtrar por:</p>
+            <div>
+              <button class="btn btn-dark d-block my-1 pr-6 w-100">TODOS</button>
+            </div>
+            <div>
+              <button class="btn btn-dark d-block my-1 pr-6 w-100">PAÍS</button>
+            </div>
+            <div>
+              <button class="btn btn-dark d-block my-1 pr-6 w-100">UBICACIÓN</button>
+            </div>
+          </div>
+          
+        <div class="col-md-6"> <!-- Columna de los cines -->
+          
+            <div class="card mb-3 mb-5" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/815/929/desktop-wallpaper-38125-sala-de-cine-cine.jpg" class="img-fluid w-100 h-100" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="class= border-bottom pt-2 text-center">
+                            <h5 class="card-title">COSTA RICA-CITYMALL ALAJUELA</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text"> <i class="fa-solid fa-location-dot"></i> Tercer piso, Centro comercial City Mall.</p>
+                        </div>
+                        <div class="border-top bg-danger">
+                            <button class="btn btn-danger w-100 float-end"><i class="fa-sharp fa-solid fa-plus fa-beat"></i> INFO </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="card mb-3 mb-5" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://www.elsoldecuernavaca.com.mx/cultura/a2c54u-cine-emireth.jpg/ALTERNATES/LANDSCAPE_768/cine-emireth.jpg" class="img-fluid w-100 h-100" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="class= border-bottom pt-2 text-center">
+                            <h5 class="card-title">COSTA RICA- SAN CARLOS</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text"> <i class="fa-solid fa-location-dot"></i>Segundo piso, plaza San Carlos.</p>
+                        </div>
+                        <div class="border-top bg-danger">
+                            <button class="btn btn-danger w-100 float-end"><i class="fa-sharp fa-solid fa-plus fa-beat"></i> INFO </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 mb-5" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://financialfood.es/wp-content/uploads/2020/04/Centro-comercial-290420.jpg" class="img-fluid w-100 h-100" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="class= border-bottom pt-2 text-center">
+                            <h5 class="card-title">COSTA RICA-CARTAGO</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text"> <i class="fa-solid fa-location-dot"></i> Tercer piso, Centro comercial City Mall.</p>
+                        </div>
+                        <div class="border-top bg-danger">
+                            <button class="btn btn-danger w-100 float-end"><i class="fa-sharp fa-solid fa-plus fa-beat"></i> INFO </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 mb-5" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://i0.wp.com/www.aljarafedigital.com/wp-content/uploads/2021/10/airesur.jpg?fit=1200%2C676&ssl=1" class="img-fluid w-100 h-100" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="class= border-bottom pt-2 text-center">
+                            <h5 class="card-title">COSTA RICA-PUNTARENAS</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text"> <i class="fa-solid fa-location-dot"></i> Tercer piso, Centro comercial City Mall.</p>
+                        </div>
+                        <div class="border-top bg-danger">
+                            <button class="btn btn-danger w-100 float-end"><i class="fa-sharp fa-solid fa-plus fa-beat"></i> INFO </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="card mb-3 mb-5" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://i.pinimg.com/originals/3b/4a/c1/3b4ac169af7395738bb40c2f8862ee4d.jpg" class="img-fluid w-100 h-100" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="class= border-bottom pt-2 text-center">
+                            <h5 class="card-title">COSTA RICA-GUANACASTE</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text"> <i class="fa-solid fa-location-dot"></i> Tercer piso, Centro comercial City Mall.</p>
+                        </div>
+                        <div class="border-top bg-danger">
+                            <button class="btn btn-danger w-100 float-end"><i class="fa-sharp fa-solid fa-plus fa-beat"></i> INFO </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+        <div class="col"></div> <!-- Columna vacía a la derecha -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="pt-4" style="background-color:  rgb(227, 224, 224);">
+    <div class="container ">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <h3>Sobre Mobex</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum earum libero consequuntur repudiandae
+            eius obcaecati vitae harum eaque numquam beatae,
+            tenetur aperiam temporibus. Officia reprehenderit soluta perspiciatis, at ipsam consequatur!</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <h3>Enlaces útiles</h3>
+          <ul>
+            <li><a class="text-decoration-none" href="cartelera.html">Cartelera</a></li>
+            <li><a class="text-decoration-none" href="preventa.html">Preventa</a></li>
+            <li><a class="text-decoration-none" href="Index.html">Inicio</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <h3>Redes sociales</h3>
+          <ul class="social-icons">
+
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">© 2023 Mobex. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+  <script src="https://kit.fontawesome.com/d7bdf83437.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d7bdf83437.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
