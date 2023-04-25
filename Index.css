@@ -1,6 +1,25 @@
-.colorPag {
-
+ 
+.colorPag{
     background-color: rgb(227, 224, 224);
 }
 
+.btnInfoCartelera {
+    width: 300px;
+    color: gray;
+    border-color: black;
+    font-size: 12px;
+}
+
+.txtInfoCartelera {
+    color: black
+}
+
+.carousel-item .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+
+  
 
